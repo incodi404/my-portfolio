@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 function Footer() {
   return (
     <div>
-      <div className="flex items-center justify-around md:justify-between px-5 flex-wrap">
+      <div className="flex items-center justify-around md:justify-between px-5 flex-wrap gap-3">
         <a href="/" className="text-[20px] font-bold text-[#21c1ff]">
           Dipankar Chowdhury
         </a>
