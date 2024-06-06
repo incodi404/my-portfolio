@@ -672,7 +672,7 @@ function Landing() {
                 Email <TfiEmail />
               </button>
             </a>
-            <a href="https://wa.me/1234567890" target="_blank">
+            <a href="https://wa.me/+917478524191" target="_blank">
               <button className="px-5 py-2 rounded-lg bg-[#0E2954] flex items-center gap-2">
                 WhatsApp <ImWhatsapp />
               </button>
