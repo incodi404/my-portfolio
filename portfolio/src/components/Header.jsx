@@ -31,7 +31,7 @@ function Header() {
           onClick={() => setIsOpen((prev) => !prev)}
           className="bg-[#00000041] fixed w-full h-full"
         >
-          <div className="fixed top-[0rem] flex flex-col w-[50%] right-0 h-full items-start px-5 py-10 space-y-2 bg-[#21c1ff] text-black">
+          <div className="fixed top-[0rem] flex flex-col w-[70%] right-0 h-full items-start px-5 py-10 space-y-2 bg-[#21c1ff] text-black">
             <h2 className="text-[30px] text-black font-bold">
               Dipankar Chowdhury
             </h2>
