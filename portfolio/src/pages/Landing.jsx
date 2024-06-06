@@ -374,7 +374,7 @@ function Landing() {
         id="projects"
         className="w-full flex flex-col justify-center items-center gap-10"
       >
-        <div className="flex gap-10 md:w-[30rem] items-center justify-center bg-[#222222] p-10 rounded-2xl flex-col xl:flex-row">
+        <div className="flex gap-10 w-[90vw] md:w-[auto] items-center justify-center bg-[#222222] p-10 rounded-2xl flex-col xl:flex-row">
           <img src={rentify_img} className="w-[40rem]" alt="" />
           <div className="text-left w-[80vw] space-y-5 md:w-[30rem]">
             <h3 className="text-[30px] font-bold flex justify-between items-center w-[80vw] flex-wrap md:w-[30rem]">
@@ -424,7 +424,7 @@ function Landing() {
             </div>
           </div>
         </div>
-        <div className="flex gap-10 items-center justify-center bg-[#222222] p-10 rounded-2xl flex-col xl:flex-row">
+        <div className="flex gap-10 w-[90vw] md:w-[auto] items-center justify-center bg-[#222222] p-10 rounded-2xl flex-col xl:flex-row">
           <img src={colfession_img} className="w-[20rem] rounded-full" alt="" />
           <div className="text-left w-[80vw] space-y-5 md:w-[30rem]">
             <h3 className="text-[30px] font-bold flex flex-wrap justify-between items-center w-[80vw] md:w-[30rem]">
@@ -467,7 +467,7 @@ function Landing() {
             </div>
           </div>
         </div>
-        <div className="flex gap-10 items-center justify-center bg-[#222222] p-10 rounded-2xl flex-col xl:flex-row">
+        <div className="flex gap-10 w-[90vw] md:w-[auto] items-center justify-center bg-[#222222] p-10 rounded-2xl flex-col xl:flex-row">
           <img src={dashboard_img} className="w-[40rem]" alt="" />
           <div className="text-left w-[80vw] space-y-5 md:w-[30rem]">
             <h3 className="text-[30px] font-bold flex justify-between items-center flex-wrap w-[80vw] md:w-[30rem]">
@@ -608,7 +608,7 @@ function Landing() {
         id="achivements"
         className="w-full flex flex-col justify-center items-center gap-10"
       >
-        <div className="flex gap-10 items-center justify-center p-10 rounded-2xl flex-col xl:flex-row">
+        <div className="flex gap-10 w-[90vw] md:w-[auto] items-center justify-center p-10 rounded-2xl flex-col xl:flex-row">
           <img src={certificate_img} className="w-[40rem]" alt="" />
           <div className="text-left w-[80vw] space-y-5 md:w-[30rem]">
             <h3 className="text-[30px] font-bold flex flex-wrap justify-between items-center w-[80vw] md:w-[30rem]">
@@ -631,7 +631,7 @@ function Landing() {
             </div>
           </div>
         </div>
-        <div className="flex gap-10 items-center justify-center p-10 rounded-2xl flex-col xl:flex-row">
+        <div className="flex gap-10 w-[90vw] md:w-[auto] items-center justify-center p-10 rounded-2xl flex-col xl:flex-row">
           <div className="text-left w-[80vw] space-y-5 md:w-[30rem]">
             <h3 className="text-[30px] font-bold flex flex-wrap justify-between items-center w-[80vw] md:w-[30rem]">
               Secured 2nd Position Among 40 Colleges{" "}
@@ -653,7 +653,7 @@ function Landing() {
       <h2 className="text-[3rem] text-center">Contact Me</h2>
       <div
         id="contact"
-        className="flex gap-10 items-center justify-center p-10 rounded-2xl flex-col xl:flex-row"
+        className="flex gap-10 w-[90vw] md:w-[auto] items-center justify-center p-10 rounded-2xl flex-col xl:flex-row"
       >
         <img src={dipankar_img} className="w-[30rem] rounded-full" alt="" />
         <div className="text-left w-[80vw] space-y-5 md:w-[30rem]">
