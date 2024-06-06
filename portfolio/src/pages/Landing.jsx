@@ -25,6 +25,7 @@ import { TfiEmail } from "react-icons/tfi";
 import { ImWhatsapp } from "react-icons/im";
 import { FaInstagram } from "react-icons/fa";
 import { BiSolidInstitution } from "react-icons/bi";
+import { MdCall } from "react-icons/md";
 
 function Landing() {
   return (
@@ -507,7 +508,7 @@ function Landing() {
           id="experience"
           className="w-[20rem] sm:w-[35rem] h-auto p-10 text-left bg-[#222222] space-y-7 rounded-xl"
         >
-            <BiSolidInstitution className="text-[30px]"/>
+          <BiSolidInstitution className="text-[30px]" />
           <div>
             <h3 className="text-[25px] font-semibold">
               Bachelor's in Computer Science
@@ -524,8 +525,7 @@ function Landing() {
           </div>
           <ul className="space-y-1">
             <li className="border-b-[1px] py-2 text-gray-400">
-              Last semester GPA was{" "}
-              <span className="text-[#21c1ff]">8.2</span>
+              Last semester GPA was <span className="text-[#21c1ff]">8.2</span>
             </li>
             <li className="border-b-[1px] py-2 text-gray-400">
               Mastered in all topics of computer science.
@@ -675,6 +675,11 @@ function Landing() {
             >
               <button className="px-5 py-2 rounded-lg bg-[#0E2954] flex items-center gap-2">
                 Instagram <FaInstagram />
+              </button>
+            </a>
+            <a href="tel:+917478524191">
+              <button className="px-5 py-2 rounded-lg bg-[#0E2954] flex items-center gap-2">
+                Call Me <MdCall />
               </button>
             </a>
           </div>
