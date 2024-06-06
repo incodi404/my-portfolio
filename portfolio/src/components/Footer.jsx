@@ -5,11 +5,11 @@ import { MdEmail } from "react-icons/md";
 function Footer() {
   return (
     <div>
-      <div className="flex items-center justify-between px-10">
+      <div className="flex items-center justify-around md:justify-between px-5 flex-wrap">
         <a href="/" className="text-[20px] font-bold text-[#21c1ff]">
           Dipankar Chowdhury
         </a>
-        <section className="flex gap-5">
+        <section className="flex gap-5 flex-wrap mt-3">
           <a href="https://www.linkedin.com/in/dipankar-chowdhury/"><BsLinkedin className="text-[20px]" /></a>
           <a href="https://x.com/JS_Guy302"><BsTwitterX className="text-[20px]" /></a>
           <a href="mailto:chowdhurydipankar1106@gmail.com"><MdEmail className="text-[20px]" /></a>

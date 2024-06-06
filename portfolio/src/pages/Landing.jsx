@@ -31,7 +31,7 @@ function Landing() {
   return (
     <>
       <div className="w-full h-[50rem] sm:h-[30rem] bg-[#222222] rounded-2xl mt-[6rem] items-center space-y-10 sm:space-y-0 p-10 flex flex-col md:flex-row justify-around">
-        <section className="w-[50vh] sm:w-[80vh] text-center sm:text-left flex flex-col justify-center items-center sm:items-start">
+        <section className="w-[80vw] text-center sm:text-left flex flex-col justify-center items-center sm:items-start">
           <h1 className="text-[5vh]">
             Hi, I am{" "}
             <span className="font-bold text-[#21c1ff]">Dipankar Chowdhury</span>
@@ -46,12 +46,13 @@ function Landing() {
         </section>
         <img src={main_img} className="w-[20rem] rounded-full" alt="" />
       </div>
+
       <h2 className="text-[3rem]">My Services</h2>
       <div
         id="services"
         className="w-full flex justify-around flex-col xl:flex-row items-center gap-10"
       >
-        <section className="w-[20rem] sm:w-[35rem] h-auto sm:h-[34rem] p-10 text-left bg-[#222222] space-y-7 rounded-xl">
+        <section className="w-[80vw] sm:w-[35rem] h-auto sm:h-[34rem] p-10 text-left bg-[#222222] space-y-7 rounded-xl">
           <FaFigma className="text-[30px]" />
           <h3 className="text-[25px] font-semibold">Design</h3>
           <ul className="opacity-60 space-y-1">
@@ -75,7 +76,7 @@ function Landing() {
             </li>
           </ul>
         </section>
-        <section className="w-[20rem] sm:w-[35rem] h-auto sm:h-[34rem] p-10 text-left bg-[#222222] space-y-7 rounded-xl">
+        <section className="w-[80vw] sm:w-[35rem] h-auto sm:h-[34rem] p-10 text-left bg-[#222222] space-y-7 rounded-xl">
           <div className="flex gap-5 justify-start text-[30px]">
             <DiNodejsSmall />
             <DiMongodb />
@@ -104,7 +105,7 @@ function Landing() {
             </li>
           </ul>
         </section>
-        <section className="w-[20rem] sm:w-[35rem] h-auto sm:h-[34rem] p-10 text-left bg-[#222222] space-y-7 rounded-xl">
+        <section className="w-[80vw] sm:w-[35rem] h-auto sm:h-[34rem] p-10 text-left bg-[#222222] space-y-7 rounded-xl">
           <div className="flex gap-5 justify-start text-[30px]">
             <FaServer />
             <FaGitAlt />
@@ -134,12 +135,13 @@ function Landing() {
           </ul>
         </section>
       </div>
+
       <h2 className="text-[3rem]">My Skills</h2>
       <div
         id="skills"
         className="w-full flex justify-around flex-col xl:flex-row items-center gap-10"
       >
-        <div className="w-[20rem] sm:w-[30rem] h-[30rem] space-y-5">
+        <div className="w-[80vw] sm:w-[30rem] h-[30rem] space-y-5">
           <h3 className="text-[30px]">Frontend</h3>
           <section>
             <section className="flex justify-between mb-2">
@@ -205,7 +207,7 @@ function Landing() {
             </div>
           </section>
         </div>
-        <div className="w-[20rem] sm:w-[30rem] h-[30rem] space-y-5">
+        <div className="w-[80vw] sm:w-[30rem] h-[30rem] space-y-5">
           <h3 className="text-[30px]">Backend</h3>
           <section>
             <section className="flex justify-between mb-2">
@@ -262,7 +264,7 @@ function Landing() {
             </div>
           </section>
         </div>
-        <div className="w-[20rem] sm:w-[30rem] h-[30rem] space-y-5">
+        <div className="w-[80vw] sm:w-[30rem] h-[30rem] space-y-5">
           <h3 className="text-[30px]">Others</h3>
           <section>
             <section className="flex justify-between mb-2">
@@ -311,6 +313,7 @@ function Landing() {
           </section>
         </div>
       </div>
+
       <h2 className="text-[3rem]">More Skills</h2>
       <div className="flex gap-5 flex-wrap justify-center items-center">
         <section className="bg-[#222222] px-4 py-2 cursor-pointer hover:bg-sky-600">
@@ -365,15 +368,16 @@ function Landing() {
           Analytical Thinking
         </section>
       </div>
+
       <h2 className="text-[3rem]">My Projects</h2>
       <div
         id="projects"
         className="w-full flex flex-col justify-center items-center gap-10"
       >
-        <div className="flex gap-10 items-center justify-center bg-[#222222] p-10 rounded-2xl flex-col xl:flex-row">
+        <div className="flex gap-10 md:w-[30rem] items-center justify-center bg-[#222222] p-10 rounded-2xl flex-col xl:flex-row">
           <img src={rentify_img} className="w-[40rem]" alt="" />
-          <div className="text-left w-[20rem] space-y-5 md:w-[30rem]">
-            <h3 className="text-[30px] font-bold flex justify-between items-center w-[20rem] md:w-[30rem]">
+          <div className="text-left w-[80vw] space-y-5 md:w-[30rem]">
+            <h3 className="text-[30px] font-bold flex justify-between items-center w-[80vw] flex-wrap md:w-[30rem]">
               Rentify <span className="text-[20px] opacity-75">May, 2024</span>
             </h3>
             <p>
@@ -403,7 +407,7 @@ function Landing() {
                 Render
               </section>
             </div>
-            <div className="flex gap-5">
+            <div className="flex gap-5 flex-wrap">
               <a
                 href="https://github.com/incodi404/rentify-frontend"
                 target="_blank"
@@ -422,8 +426,8 @@ function Landing() {
         </div>
         <div className="flex gap-10 items-center justify-center bg-[#222222] p-10 rounded-2xl flex-col xl:flex-row">
           <img src={colfession_img} className="w-[20rem] rounded-full" alt="" />
-          <div className="text-left w-[20rem] space-y-5 md:w-[30rem]">
-            <h3 className="text-[30px] font-bold flex justify-between items-center w-[20rem] md:w-[30rem]">
+          <div className="text-left w-[80vw] space-y-5 md:w-[30rem]">
+            <h3 className="text-[30px] font-bold flex flex-wrap justify-between items-center w-[80vw] md:w-[30rem]">
               Colfessions{" "}
               <span className="text-[20px] opacity-75">Ongoing</span>
             </h3>
@@ -465,8 +469,8 @@ function Landing() {
         </div>
         <div className="flex gap-10 items-center justify-center bg-[#222222] p-10 rounded-2xl flex-col xl:flex-row">
           <img src={dashboard_img} className="w-[40rem]" alt="" />
-          <div className="text-left w-[20rem] space-y-5 md:w-[30rem]">
-            <h3 className="text-[30px] font-bold flex justify-between items-center w-[20rem] md:w-[30rem]">
+          <div className="text-left w-[80vw] space-y-5 md:w-[30rem]">
+            <h3 className="text-[30px] font-bold flex justify-between items-center flex-wrap w-[80vw] md:w-[30rem]">
               Dashboard{" "}
               <span className="text-[20px] opacity-75">March, 2024</span>
             </h3>
@@ -502,11 +506,12 @@ function Landing() {
           </div>
         </div>
       </div>
+
       <h2 className="text-[3rem] text-center">My Education</h2>
       <div id="education">
         <section
           id="experience"
-          className="w-[20rem] sm:w-[35rem] h-auto p-10 text-left bg-[#222222] space-y-7 rounded-xl"
+          className="w-[80vw] sm:w-[35rem] h-auto p-10 text-left bg-[#222222] space-y-7 rounded-xl"
         >
           <BiSolidInstitution className="text-[30px]" />
           <div>
@@ -556,10 +561,11 @@ function Landing() {
           </div>
         </section>
       </div>
+
       <h2 className="text-[3rem] text-center">Internship</h2>
       <section
         id="experience"
-        className="w-[20rem] sm:w-[35rem] h-auto p-10 text-left bg-[#222222] space-y-7 rounded-xl"
+        className="w-[80vw] sm:w-[35rem] h-auto p-10 text-left bg-[#222222] space-y-7 rounded-xl"
       >
         <div>
           <h3 className="text-[25px] font-semibold">
@@ -596,6 +602,7 @@ function Landing() {
           </section>
         </div>
       </section>
+
       <h2 className="text-[3rem] text-center">My Achivements</h2>
       <div
         id="achivements"
@@ -603,8 +610,8 @@ function Landing() {
       >
         <div className="flex gap-10 items-center justify-center p-10 rounded-2xl flex-col xl:flex-row">
           <img src={certificate_img} className="w-[40rem]" alt="" />
-          <div className="text-left w-[20rem] space-y-5 md:w-[30rem]">
-            <h3 className="text-[30px] font-bold flex justify-between items-center w-[20rem] md:w-[30rem]">
+          <div className="text-left w-[80vw] space-y-5 md:w-[30rem]">
+            <h3 className="text-[30px] font-bold flex flex-wrap justify-between items-center w-[80vw] md:w-[30rem]">
               Independent Research Paper{" "}
               <span className="text-[20px] opacity-75">March, 2024</span>
             </h3>
@@ -625,8 +632,8 @@ function Landing() {
           </div>
         </div>
         <div className="flex gap-10 items-center justify-center p-10 rounded-2xl flex-col xl:flex-row">
-          <div className="text-left w-[20rem] space-y-5 md:w-[30rem]">
-            <h3 className="text-[30px] font-bold flex justify-between items-center w-[20rem] md:w-[30rem]">
+          <div className="text-left w-[80vw] space-y-5 md:w-[30rem]">
+            <h3 className="text-[30px] font-bold flex flex-wrap justify-between items-center w-[80vw] md:w-[30rem]">
               Secured 2nd Position Among 40 Colleges{" "}
               <span className="text-[20px] opacity-75">April, 2024</span>
             </h3>
@@ -642,14 +649,15 @@ function Landing() {
           <img src={trophy_img} className="w-[30rem]" alt="" />
         </div>
       </div>
+
       <h2 className="text-[3rem] text-center">Contact Me</h2>
       <div
         id="contact"
         className="flex gap-10 items-center justify-center p-10 rounded-2xl flex-col xl:flex-row"
       >
         <img src={dipankar_img} className="w-[30rem] rounded-full" alt="" />
-        <div className="text-left w-[20rem] space-y-5 md:w-[30rem]">
-          <h3 className="text-[30px] font-bold flex justify-between items-center w-[20rem] md:w-[30rem]">
+        <div className="text-left w-[80vw] space-y-5 md:w-[30rem]">
+          <h3 className="text-[30px] font-bold flex justify-between items-center w-[80vw] md:w-[30rem]">
             Hi, this is Dipankar.
           </h3>
           <p>
